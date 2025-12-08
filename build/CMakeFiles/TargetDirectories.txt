@@ -1,0 +1,3 @@
+/Users/tal/Desktop/Grus/build/CMakeFiles/Grus.dir
+/Users/tal/Desktop/Grus/build/CMakeFiles/edit_cache.dir
+/Users/tal/Desktop/Grus/build/CMakeFiles/rebuild_cache.dir
