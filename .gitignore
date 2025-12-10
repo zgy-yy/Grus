@@ -1,0 +1,14 @@
+# 构建目录
+build/
+
+# CMake 生成的文件
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 可执行文件
+Grus
+
+# macOS 特定文件
+.DS_Store
+
