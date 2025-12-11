@@ -6,6 +6,7 @@
 typedef double Value;
 
 
+#define NUMBER_VAL(value) ((Value){VAL_NUMBER, {.number = value}})
 typedef struct {
     int capacity;
     int count;

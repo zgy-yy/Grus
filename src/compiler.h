@@ -5,7 +5,7 @@
 #include "common.h"
 #include "value.h"
 
-void compile(const char* source);
+bool compile(const char* source, Chunk* chunk);
 
 
 
