@@ -7,10 +7,17 @@
 
 typedef enum {
     OP_CONSTANT,// 常量
+    OP_NIL,// 空值 nil
+    OP_TRUE,// 布尔值 true
+    OP_FALSE,// 布尔值 false
+    OP_EQUAL,
+    OP_GREATER,
+    OP_LESS,
     OP_ADD,// 加法
     OP_SUBTRACT,// 减法
     OP_MULTIPLY,// 乘法
     OP_DIVIDE,// 除法
+    OP_NOT,// 取反
     OP_NEGATE,// 取负
     // OP_EQUAL,// 等于
     // OP_GREATER,// 大于
