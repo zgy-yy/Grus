@@ -19,6 +19,11 @@ typedef enum {
     OP_DIVIDE,// 除法
     OP_NOT,// 取反
     OP_NEGATE,// 取负
+    OP_PRINT,// 打印
+    OP_POP,// 弹出栈顶值
+    OP_DEFINE_GLOBAL,// 定义全局变量
+    OP_GET_GLOBAL,// 获取全局变量
+    OP_SET_GLOBAL,// 设置全局变量
     // OP_EQUAL,// 等于
     // OP_GREATER,// 大于
     // OP_LESS,// 小于
