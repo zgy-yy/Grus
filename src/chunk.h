@@ -21,6 +21,8 @@ typedef enum {
     OP_NEGATE,// 取负
     OP_PRINT,// 打印
     OP_POP,// 弹出栈顶值
+    OP_GET_LOCAL,// 获取局部变量
+    OP_SET_LOCAL,// 设置局部变量
     OP_DEFINE_GLOBAL,// 定义全局变量
     OP_GET_GLOBAL,// 获取全局变量
     OP_SET_GLOBAL,// 设置全局变量
