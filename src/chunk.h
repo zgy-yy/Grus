@@ -20,12 +20,15 @@ typedef enum {
     OP_NOT,// 取反
     OP_NEGATE,// 取负
     OP_PRINT,// 打印
+    OP_JUMP,// 跳转
+    OP_JUMP_IF_FALSE,// 跳过 if 语句
     OP_POP,// 弹出栈顶值
     OP_GET_LOCAL,// 获取局部变量
     OP_SET_LOCAL,// 设置局部变量
     OP_DEFINE_GLOBAL,// 定义全局变量
     OP_GET_GLOBAL,// 获取全局变量
     OP_SET_GLOBAL,// 设置全局变量
+    OP_LOOP,
     // OP_EQUAL,// 等于
     // OP_GREATER,// 大于
     // OP_LESS,// 小于
