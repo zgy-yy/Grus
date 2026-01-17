@@ -35,6 +35,7 @@ typedef enum {
     // OP_GREATER_EQUAL,// 大于等于
     // OP_LESS_EQUAL,// 小于等于
     // OP_NOT_EQUAL,// 不等于
+    OP_CALL,// 调用函数
     OP_RETURN,// 从函数返回
 } OpCode;
 

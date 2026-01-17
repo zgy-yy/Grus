@@ -1,12 +1,10 @@
 #ifndef COMPILER_H_
 #define COMPILER_H_
 
-#include "chunk.h"
-#include "common.h"
-#include "value.h"
 
-bool compile(const char* source, Chunk* chunk);
+#include "object.h"
+#include "vm.h"
 
-#define UINT8_COUNT (UINT8_MAX + 1)
+ObjFunction* compile(const char* source);
 
 #endif // COMPILER_H_
